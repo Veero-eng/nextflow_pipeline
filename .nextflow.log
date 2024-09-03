@@ -1,0 +1,119 @@
+Aug-23 12:59:44.696 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -c nextflow.config
+Aug-23 12:59:44.856 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.4
+Aug-23 12:59:44.876 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/newuser/.nextflow/plugins; core-plugins: nf-amazon@2.5.3,nf-azure@1.6.1,nf-cloudcache@0.4.1,nf-codecommit@0.2.1,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2-patch1
+Aug-23 12:59:44.890 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-23 12:59:44.904 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-23 12:59:44.908 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Aug-23 12:59:44.929 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-23 12:59:44.950 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/nextflow.config
+Aug-23 12:59:44.955 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/nextflow.config
+Aug-23 12:59:44.955 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/nextflow.config
+Aug-23 12:59:44.957 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/nextflow.config
+Aug-23 12:59:44.988 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/newuser/.nextflow/secrets/store.json
+Aug-23 12:59:44.992 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@e8fadb0] - activable => nextflow.secret.LocalSecretsProvider@e8fadb0
+Aug-23 12:59:44.999 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Aug-23 12:59:45.400 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Aug-23 12:59:45.446 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Aug-23 12:59:45.467 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [loquacious_bose] DSL2 - revision: b6b5b9e0bf
+Aug-23 12:59:45.469 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-23 12:59:45.470 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-23 12:59:45.520 [main] DEBUG nextflow.Session - Session UUID: 9944e849-2be0-4580-a3fd-7d968e79da73
+Aug-23 12:59:45.520 [main] DEBUG nextflow.Session - Run name: loquacious_bose
+Aug-23 12:59:45.521 [main] DEBUG nextflow.Session - Executor pool size: 16
+Aug-23 12:59:45.528 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-23 12:59:45.556 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.4 build 5917
+  Created: 01-08-2024 07:05 UTC (12:35 IDT)
+  System: Linux 5.15.153.1-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 21.0.4+7-Ubuntu-1ubuntu222.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 41052@MSI [127.0.1.1]
+  CPUs: 16 - Mem: 7.6 GB (6.5 GB) - Swap: 2 GB (2 GB) - Virtual threads ON
+Aug-23 12:59:45.590 [main] DEBUG nextflow.Session - Work-dir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work [v9fs]
+Aug-23 12:59:45.591 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/bin
+Aug-23 12:59:45.604 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-23 12:59:45.618 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-23 12:59:45.636 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-23 12:59:45.648 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Aug-23 12:59:45.736 [main] DEBUG nextflow.Session - Session start
+Aug-23 12:59:46.024 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-23 12:59:46.128 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.128 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.133 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-23 12:59:46.139 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=7.6 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+Aug-23 12:59:46.141 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Aug-23 12:59:46.206 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.206 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.226 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.227 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.232 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.232 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.239 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.239 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.247 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.247 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.252 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-23 12:59:46.252 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-23 12:59:46.256 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: QC, mapping, variant_filtering, sorting, variant_calling, index, variant_annotation
+Aug-23 12:59:46.257 [main] DEBUG nextflow.Session - Igniting dataflow network (16)
+Aug-23 12:59:46.261 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > index
+Aug-23 12:59:46.263 [PathVisitor-2] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/fastq/; pattern: *{R1,R2}*; options: [:]
+Aug-23 12:59:46.263 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > QC
+Aug-23 12:59:46.265 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > mapping
+Aug-23 12:59:46.265 [PathVisitor-4] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/fastq/; pattern: *{R1,R2}*; options: [:]
+Aug-23 12:59:46.266 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > sorting
+Aug-23 12:59:46.266 [PathVisitor-5] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/BAM/; pattern: *.bam; options: [:]
+Aug-23 12:59:46.267 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > variant_calling
+Aug-23 12:59:46.267 [PathVisitor-6] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/BAM/sorted/; pattern: *.sorted.bam; options: [:]
+Aug-23 12:59:46.269 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > variant_filtering
+Aug-23 12:59:46.270 [PathVisitor-7] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/VCF/; pattern: *.vcf; options: [:]
+Aug-23 12:59:46.271 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > variant_annotation
+Aug-23 12:59:46.271 [PathVisitor-8] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /mnt/d/Studies/Internship/nextflow_pipeline/VCF/filtered/; pattern: *.filtered.vcf; options: [:]
+Aug-23 12:59:46.271 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_68ce6fabf029986b: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/main.nf
+Aug-23 12:59:46.273 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Aug-23 12:59:46.274 [main] DEBUG nextflow.Session - Session await
+Aug-23 12:59:46.441 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 12:59:46.443 [Task submitter] INFO  nextflow.Session - [35/2249be] Submitted process > mapping (1)
+Aug-23 13:01:04.864 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: mapping (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/35/2249be62e165d69cd16e950980667c]
+Aug-23 13:01:04.880 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:01:04.880 [Task submitter] INFO  nextflow.Session - [84/863220] Submitted process > variant_calling (1)
+Aug-23 13:01:29.592 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: variant_calling (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/84/86322016bc4562d5f5e79dcea359b0]
+Aug-23 13:01:29.601 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:01:29.602 [Task submitter] INFO  nextflow.Session - [c1/2bd17f] Submitted process > variant_annotation (1)
+Aug-23 13:01:49.775 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: variant_annotation (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/c1/2bd17fd60c05a7bbaee2581979f0c9]
+Aug-23 13:01:49.784 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:01:49.785 [Task submitter] INFO  nextflow.Session - [05/76d5e1] Submitted process > sorting (3)
+Aug-23 13:01:55.735 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: sorting (3); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/05/76d5e158f8e0bf573188385b9f0f3d]
+Aug-23 13:01:55.742 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:01:55.742 [Task submitter] INFO  nextflow.Session - [44/3a3a5f] Submitted process > sorting (2)
+Aug-23 13:01:57.270 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: sorting (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/44/3a3a5fde18585e1df889af0647bfbb]
+Aug-23 13:01:57.276 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:01:57.277 [Task submitter] INFO  nextflow.Session - [12/a8efa0] Submitted process > variant_calling (2)
+Aug-23 13:02:43.984 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: variant_calling (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/12/a8efa07cbd91a7f4657f80464bf79c]
+Aug-23 13:02:44.002 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:02:44.003 [Task submitter] INFO  nextflow.Session - [2e/a2134c] Submitted process > index (1)
+Aug-23 13:04:11.407 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: index (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/2e/a2134c5e12dcd9cee1ed030d9693d2]
+Aug-23 13:04:11.419 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:04:11.423 [Task submitter] INFO  nextflow.Session - [cd/e0ae2a] Submitted process > QC (1)
+Aug-23 13:04:27.633 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: QC (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/cd/e0ae2a01f7babc01c65981163f4d15]
+Aug-23 13:04:27.656 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:04:27.658 [Task submitter] INFO  nextflow.Session - [9a/584669] Submitted process > QC (2)
+Aug-23 13:04:43.822 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: QC (2); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/9a/584669882e285eebb78f4349260509]
+Aug-23 13:04:43.834 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:04:43.835 [Task submitter] INFO  nextflow.Session - [96/cdae1c] Submitted process > variant_filtering (1)
+Aug-23 13:04:45.034 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: variant_filtering (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/96/cdae1c88ae79d72acefdbb17ecc2bc]
+Aug-23 13:04:45.045 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-23 13:04:45.049 [Task submitter] INFO  nextflow.Session - [ac/f78bb7] Submitted process > sorting (1)
+Aug-23 13:04:46.337 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 2; name: sorting (1); status: RUNNING; exit: -; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/ac/f78bb7f65d48140b6ded7e3f635d7f]
+Aug-23 13:04:55.734 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: sorting (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/d/Studies/Internship/nextflow_pipeline/scripts/work/ac/f78bb7f65d48140b6ded7e3f635d7f]
+Aug-23 13:04:55.745 [main] DEBUG nextflow.Session - Session await > all processes finished
+Aug-23 13:04:55.835 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Aug-23 13:04:55.836 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-23 13:04:55.838 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Aug-23 13:04:57.150 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Aug-23 13:04:57.154 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=11; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1h 22m 13s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=16; peakMemory=7 GB; ]
+Aug-23 13:04:57.295 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Aug-23 13:04:57.325 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Aug-23 13:04:57.325 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
